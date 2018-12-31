@@ -21,6 +21,7 @@ import com.google.android.gms.maps.model.PolylineOptions
 import com.google.maps.android.PolyUtil
 import com.utsman.samplegooglemapsdirection.R
 import com.utsman.samplegooglemapsdirection.java.model.DirectionResponses
+import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -42,8 +43,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         fkip = LatLng(-6.3037978, 106.8693713)
         monas = LatLng(-6.1890511, 106.8251573)
 
-        val mapFragment = supportFragmentManager.findFragmentById(R.id.maps_view) as SupportMapFragment?
-        mapFragment?.getMapAsync(this)
+        val mapFragment = maps_view as SupportMapFragment
+        mapFragment.getMapAsync(this)
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
