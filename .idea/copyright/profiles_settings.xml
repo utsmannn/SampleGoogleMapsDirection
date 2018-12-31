@@ -1,0 +1,11 @@
+<component name="CopyrightManager">
+  <settings default="utsman">
+    <module2copyright>
+      <element module="Project Files" copyright="utsman" />
+    </module2copyright>
+    <LanguageOptions name="XML">
+      <option name="fileTypeOverride" value="1" />
+      <option name="prefixLines" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>
