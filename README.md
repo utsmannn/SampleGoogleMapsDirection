@@ -1,4 +1,4 @@
-# SampleGoogleMapsDirection
+# Sample Google Maps Direction
 Sample Google Maps Direction API for Java and Kotlin
 
 ![](https://i.ibb.co/dB29qzm/Screenshot-12.png)
