@@ -40,3 +40,10 @@ https://github.com/utsmannn/SampleGoogleMapsDirection/blob/master/app/src/main/j
 
 Kotlin<br>
 https://github.com/utsmannn/SampleGoogleMapsDirection/blob/master/app/src/main/java/com/utsman/samplegooglemapsdirection/kotlin/MainActivity.kt
+
+---
+
+# Advanced with libraries
+Check [Geolib](https://github.com/utsmannn/geolib)
+
+---
